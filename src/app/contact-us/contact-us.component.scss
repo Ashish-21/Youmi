@@ -2,3 +2,18 @@
   min-height: 50vh;
   background-color: #eeeff6;
 }
+.contact-heading {
+  padding-top: 1.5em;
+  text-align: center;
+}
+
+.btn-grad {
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #17266b 65%,
+    hsl(204, 74%, 35%) 100%,
+    #e6e4ff 100%
+  );
+}
