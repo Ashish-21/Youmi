@@ -1,0 +1,30 @@
+.about-us {
+  background-color: #eeeff6;
+  min-height: 50vh;
+}
+
+.about-img {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.about-heading h2 {
+  font-size: 2em;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.about-heading p {
+  text-align: start;
+}
+
+.btn-grad {
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #17266b 65%,
+    hsl(204, 74%, 35%) 100%,
+    #e6e4ff 100%
+  );
+}

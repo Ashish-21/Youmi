@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { YoumiHeaderComponent } from './youmi-header/youmi-header.component';
 import { BannerComponent } from './banner/banner.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, YoumiHeaderComponent, BannerComponent],
+  declarations: [AppComponent, YoumiHeaderComponent, BannerComponent, AboutComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
