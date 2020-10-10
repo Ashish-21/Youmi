@@ -1,0 +1,22 @@
+#pricing {
+  min-height: 40vh;
+  background-color: #f9f9fc;
+  padding-bottom: 2em;
+}
+.pricing-header {
+  text-align: center;
+}
+.card-title {
+  color: #112771;
+}
+
+.btn-grad {
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #17266b 65%,
+    hsl(204, 74%, 35%) 100%,
+    #e6e4ff 100%
+  );
+}
