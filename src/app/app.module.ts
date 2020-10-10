@@ -11,6 +11,8 @@ import { FeaturesComponent } from './features/features.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FooterComponent } from './footer/footer.component';
+import { DownloadComponent } from './download/download.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     ReviewsComponent,
     ContactUsComponent,
     FooterComponent,
+    DownloadComponent,
+    PricingComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
