@@ -1,0 +1,44 @@
+#banner {
+  min-height: 50vh;
+  background-image: url("../../assets/overlay-image.jpeg");
+  background-color: #010933;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color-dodge;
+  filter: opacity(1.2);
+  filter: brightness(2.5);
+}
+.banner-content {
+  color: white;
+}
+.banner-heading {
+  margin-top: 8em;
+  margin-left: 2em;
+}
+.banner-heading h2 {
+  font-size: 3em;
+}
+
+.banner-heading p {
+  padding-top: 1em;
+}
+
+.banner-image {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.banner-button {
+  text-align: left;
+}
+
+.btn-grad {
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #17266b 65%,
+    hsl(204, 74%, 35%) 100%,
+    #e6e4ff 100%
+  );
+}
